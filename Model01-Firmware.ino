@@ -306,6 +306,8 @@ void setup() {
   // called 'BlazingTrail'. For details on other options,
   // see https://github.com/keyboardio/Kaleidoscope-LED-Stalker
   StalkerEffect.variant = STALKER(Rainbow);
+
+  MouseKeys.speed = 20;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
