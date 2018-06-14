@@ -307,7 +307,10 @@ void setup() {
   // see https://github.com/keyboardio/Kaleidoscope-LED-Stalker
   StalkerEffect.variant = STALKER(Rainbow);
 
-  MouseKeys.speed = 20;
+  // Control mouse from keyboard
+  // see https://github.com/keyboardio/Kaleidoscope-MouseKeys
+  MouseKeys.speed = 25;
+  MouseKeys.accelDelay = 15;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
