@@ -279,6 +279,7 @@ void setup() {
   // called 'BlazingTrail'. For details on other options,
   // see https://github.com/keyboardio/Kaleidoscope-LED-Stalker
   StalkerEffect.variant = STALKER(Rainbow);
+  StalkerEffect.step_length = 200;
 
   // Control mouse from keyboard
   // see https://github.com/keyboardio/Kaleidoscope-MouseKeys
